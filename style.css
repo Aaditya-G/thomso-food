@@ -46,7 +46,7 @@
 @media  screen and (min-width:450px) {
     .images{
         position: relative;
-        top:-30vh;
+        top:-10vh;
         max-height: 900px;
     }
     
@@ -70,8 +70,25 @@
         width:100vw;
         height: 60vh;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
     }
+    #footer-content-2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+/* identical to box height, or 158% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+}
 
 .navbar-links{
     font-family: Helvetica;
@@ -165,20 +182,7 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 
-#footer-content-2{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 38px;
-/* identical to box height, or 158% */
 
-text-align: center;
-letter-spacing: 0.2px;
-
-color: #FFFFFF;
-
-}
 
 .footer-content{
     flex-direction: column;
